@@ -13887,7 +13887,7 @@ body {
 }
 
 header#inicio {
-    background: linear-gradient(180deg, rgba(41, 36, 31, 0.95), rgba(63, 57, 50, 0.95)), url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1600&q=80') no-repeat center/cover;
+    background: linear-gradient(180deg, rgba(41, 36, 31, 0.95), rgba(63, 57, 50, 0.95));
     color: #fff;
 }
 
