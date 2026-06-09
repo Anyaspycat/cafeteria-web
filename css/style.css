@@ -13869,38 +13869,49 @@ fieldset:disabled .btn {
 }
 
 :root {
-    --cafe-beige: #f3ede3;
-    --cafe-mocha: #4d3b2b;
-    --cafe-brown: #7a5c44;
-    --cafe-cream: #f8f2e8;
-    --cafe-slate: #2a2c34;
-    --cafe-accent: #d9a066;
+    --cafe-beige: #ffe6f2;
+    --cafe-mocha: #d4507b;
+    --cafe-brown: #e8a0ba;
+    --cafe-cream: #fff2f8;
+    --cafe-slate: #4a3142;
+    --cafe-accent: #ff83c0;
+    --cafe-accent-dark: #d82b70;
 }
 
 body {
-    background-color: var(--cafe-beige);
-    color: #2e2a28;
+    background-color: var(--cafe-cream);
+    color: #4a3142;
 }
 
 .navbar {
-    background-color: rgba(41, 36, 31, 0.95);
+    background-color: rgba(255, 242, 248, 0.98);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: var(--cafe-slate) !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: var(--cafe-accent-dark) !important;
 }
 
 header#inicio {
-    background: linear-gradient(180deg, rgba(41, 36, 31, 0.95), rgba(63, 57, 50, 0.95));
-    color: #fff;
+    background: linear-gradient(180deg, rgba(255, 131, 192, 0.22), rgba(255, 242, 248, 0.98));
+    color: var(--cafe-slate);
 }
 
 header#inicio .lead {
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(74, 49, 66, 0.88);
 }
 
 .btn-warning,
 .btn-warning:hover,
 .btn-warning:focus {
-    background-color: var(--cafe-accent);
-    border-color: var(--cafe-accent);
-    color: #2a2a2a;
+    background-color: var(--cafe-accent-dark);
+    border-color: var(--cafe-accent-dark);
+    color: #ffffff;
 }
 
 section {
